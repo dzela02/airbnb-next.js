@@ -5,3 +5,12 @@
     @apply px-4 py-2 border rounded-full cursor-pointer hover:shadow-lg active:scale-95 transform transition duration-100 ease-out;
   }
 }
+
+@media (max-width: 480px) {
+  .ant-calendar-range {
+    width: 320px;
+  }
+  .ant-calendar-range-part {
+    width: 100%;
+  }
+}
